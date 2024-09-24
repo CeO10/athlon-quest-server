@@ -1,5 +1,6 @@
 {
   "watch": ["src"],
   "ext": "js",
+  "run": ["*.env/change"],
   "exec": "bun src/main.js"
 }
