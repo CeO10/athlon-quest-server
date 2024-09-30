@@ -1,5 +1,6 @@
 import request from 'supertest';
 import Utilities from "../../../src/lin/utils.js";
+import AppConfig from "../../config/app.config.js";
 
 
 const app = Utilities.bootstrapTestEnvironment()

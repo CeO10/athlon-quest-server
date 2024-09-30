@@ -1,5 +1,6 @@
 import request from 'supertest';
 import Utilities from "../../../src/lib/utils.js";
+import AppConfig from "../../config/app.config.js";
 
 
 const app = Utilities.bootstrapTestEnvironmet();
@@ -27,6 +28,3 @@ describe ("Tests for the login endpoints", () => {
     expect(response.body.data.email).toBe("v3QGhe@example.com");
 });
 
-
-
-export default Utilities
